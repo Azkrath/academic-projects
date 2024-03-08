@@ -1,0 +1,276 @@
+body {
+    width:100%;
+    height:100%;
+    text-align: center;
+    margin: 0;
+    background-color: white;
+}
+
+html {
+    width:100%;
+    height:100%;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+}
+
+img {
+    padding: 1%;
+    width: 15%;
+    height: 15%;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.button {
+    padding: 6px 10px;
+    margin: 3px;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    overflow: visible;
+    font: bold 10px arial, helvetica, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #ffffff;
+    -webkit-text-stroke-width: 0.08px;
+    -webkit-text-stroke-color: black;
+    background-color: #ddd;
+    transition: background-color .2s ease-out;
+    background-clip: padding-box; /* Fix bleeding */
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .3),
+    0 2px 5px -1px rgba(0, 0, 0, .5),
+    0 1px 0 rgba(255, 255, 255, .3) inset;
+    text-shadow: 0 1px 0 rgba(0,0,0, .9);
+}
+
+#notFound {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#animation {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+
+#searchBar {
+    width:100%;
+    background-color: transparent;
+}
+
+#canvas {
+    /*
+    border-radius: 5px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .3),
+    0 2px 5px -1px rgba(0, 0, 0, .5),
+    0 1px 0 rgba(255, 255, 255, .3) inset;
+    text-shadow: 0 1px 0 rgba(0,0,0, .9);
+    */
+}
+
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+
+#searchBox {
+    padding: 1%;
+}
+
+#bar {
+    box-shadow: 0 0 0 rgba(0, 0, 0, .5),
+    0 1px 2px -5px rgba(0, 0, 0, .5),
+    0 0 0 rgba(255, 255, 255, .3) inset;
+}
+
+#searchButton {
+    background-color: transparent;
+    border-color: #c0c0c0;
+}
+
+#searchButton:hover {
+    background-color: #dcdcdc;
+}
+
+#searchButton:active {
+    background: transparent;
+}
+
+#green {
+    background-color: #57a957;
+    border-color: #57a957;
+}
+
+#green:hover {
+    background-color: #62c462;
+}
+
+#green:active {
+    background: #57a957;
+}
+
+#red {
+    background-color: #c43c35;
+    border-color: #c43c35;
+}
+
+#red:hover {
+    background-color: #ee5f5b;
+}
+
+#red:active {
+    background: #c43c35;
+}
+
+#blue {
+     background-color: #269CE9;
+     border-color: #269CE9;
+ }
+
+#blue:hover {
+    background-color: #70B9E8;
+}
+
+#blue:active {
+    background: #269CE9;
+}
+
+#pink {
+    background-color: #ffb6c1;
+    border-color: #ffb6c1;
+}
+
+#pink:hover {
+    background-color: #ffc0db;
+}
+
+#pink:active {
+    background: #ffb6c1;
+}
+
+#orange {
+    background-color: #ffA500;
+    border-color: #ffA500;
+}
+
+#orange:hover {
+    background-color: #ffde45;
+}
+
+#orange:active {
+    background: #ffA500;
+}
+
+#cyan {
+    background-color: #20b2aa;
+    border-color: #20b2aa;
+}
+
+#cyan:hover {
+    background-color: #00ffff;
+}
+
+#cyan:active {
+    background: #20b2aa;
+}
+
+#yellow {
+    background-color: #ffde00;
+    border-color: #ffde00;
+}
+
+#yellow:hover {
+    background-color: #ffff92;
+}
+
+#yellow:active {
+    background: #ffde00;
+}
+
+#purple {
+    background-color: #800080;
+    border-color: #800080;
+}
+
+#purple:hover {
+    background-color: #9377db;
+}
+
+#purple:active {
+    background: #800080;
+}
+
+#white {
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+}
+
+#white:hover {
+    background-color: #ffffff;
+}
+
+#white:active {
+    background: #eeeeee;
+}
+
+#grey {
+    background-color: #888888;
+    border-color: #888888;
+}
+
+#grey:hover {
+    background-color: #aaaaaa;
+}
+
+#grey:active {
+    background: #888888;
+}
+
+#black {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+#black:hover {
+    background-color: #2f2f2f;
+}
+
+#black:active {
+    background: #000000;
+}
+
+#brown {
+    background-color: #8b4513;
+    border-color: #8b4513;
+}
+
+#brown:hover {
+    background-color: #f4a460;
+}
+
+#brown:active {
+    background: #8b4513;
+}

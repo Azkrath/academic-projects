@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ImageX Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div>
+        <header id="searchBar">
+            <a href="index.html" > <img id="logo" src="images/logos/searchx.png" ></a>
+            <form id="searchBox">
+                <input id="bar" type="text" size="50" maxlength="100" onkeypress="enterSearch(value)">
+                <input type="button" class="button" value="search" id="searchButton" onclick="Search(document.getElementById('bar').value)">
+            </form>
+        </header>
+        <div id="buttons">
+            <ul>
+                <li><input type="button" class="button" value="None" id="none" onclick="setHeaderColor('transparent')"></li>
+                <li><input type="button" class="button" value="Red" id="red" onclick="setHeaderColor('#c43c35')"></li>
+                <li><input type="button" class="button" value="Blue" id="blue" onclick="setHeaderColor('#269CE9')"></li>
+                <li><input type="button" class="button" value="Green" id="green" onclick="setHeaderColor('#57a957')"></li>
+                <li><input type="button" class="button" value="Yellow" id="yellow" onclick="setHeaderColor('#ffde00')"></li>
+                <li><input type="button" class="button" value="Orange" id="orange" onclick="setHeaderColor('#ffA500')"></li>
+                <li><input type="button" class="button" value="Cyan" id="cyan" onclick="setHeaderColor('#20b2aa')"></li>
+                <li><input type="button" class="button" value="Purple" id="purple" onclick="setHeaderColor('#800080')"></li>
+                <li><input type="button" class="button" value="Pink" id="pink" onclick="setHeaderColor('#ffb6c1')"></li>
+                <li><input type="button" class="button" value="White" id="white" onclick="setHeaderColor('#ffffff')"></li>
+                <li><input type="button" class="button" value="Grey" id="grey" onclick="setHeaderColor('#888888')"></li>
+                <li><input type="button" class="button" value="Black" id="black" onclick="setHeaderColor('#000000')"></li>
+                <li><input type="button" class="button" value="Brown" id="brown" onclick="setHeaderColor('#8b4513')"></li>
+            </ul>
+        </div>
+        <canvas id="canvas2">
+            Your browser doesn't recognize the canvas element
+        </canvas>
+    </div>
+    <script>window.onload = initSearchResultPageWithCanvas()</script>
+</body>
+</html>

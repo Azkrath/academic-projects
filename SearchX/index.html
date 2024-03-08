@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchX Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header></header>
+        <div id="main">
+            <canvas id="canvas">
+                Your browser doesn't recognize the canvas element
+            </canvas>
+            <input type="checkbox" id="animation" onclick="setAnimation()">
+        </div>
+        <div id="buttons">
+            <ul>
+                <li><input type="button" class="button" value="None" id="none" onclick="setCnvsColor('transparent', 'canvas')"></li>
+                <li><input type="button" class="button" value="Red" id="red" onclick="setCnvsColor('#c43c35', 'canvas')"></li>
+                <li><input type="button" class="button" value="Blue" id="blue" onclick="setCnvsColor('#269CE9', 'canvas')"></li>
+                <li><input type="button" class="button" value="Green" id="green" onclick="setCnvsColor('#57a957', 'canvas')"></li>
+                <li><input type="button" class="button" value="Yellow" id="yellow" onclick="setCnvsColor('#ffde00', 'canvas')"></li>
+                <li><input type="button" class="button" value="Orange" id="orange" onclick="setCnvsColor('#ffA500', 'canvas')"></li>
+                <li><input type="button" class="button" value="Cyan" id="cyan" onclick="setCnvsColor('#20b2aa', 'canvas')"></li>
+                <li><input type="button" class="button" value="Purple" id="purple" onclick="setCnvsColor('#800080', 'canvas')"></li>
+                <li><input type="button" class="button" value="Pink" id="pink" onclick="setCnvsColor('#ffb6c1', 'canvas')"></li>
+                <li><input type="button" class="button" value="White" id="white" onclick="setCnvsColor('#ffffff', 'canvas')"></li>
+                <li><input type="button" class="button" value="Grey" id="grey" onclick="setCnvsColor('#888888', 'canvas')"></li>
+                <li><input type="button" class="button" value="Black" id="black" onclick="setCnvsColor('#000000', 'canvas')"></li>
+                <li><input type="button" class="button" value="Brown" id="brown" onclick="setCnvsColor('#8b4513', 'canvas')"></li>
+            </ul>
+        </div>
+        <form id="searchBox">
+            <input id="bar" type="text" size="50" maxlength="100" onkeypress="enterSearch(value)">
+            <input type="button" class="button" value="search" id="searchButton" onclick="Search(document.getElementById('bar').value)">
+        </form>
+    </div>
+    <script>window.onload = newSearchPage()</script>
+</body>
+</html>

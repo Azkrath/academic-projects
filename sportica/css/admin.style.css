@@ -1,0 +1,150 @@
+.row_lc table {
+    margin-left: -20px;
+}
+
+#row .admin_menu {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.admin_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin_table td, th {
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+
+.button_on {
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    background-color: forestgreen;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.button_off {
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    background-color: firebrick;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.remove {
+    border: 0;
+    width: 120px;
+}
+
+.remove_button {
+    display: inline-block;
+    height: 20px;
+    width: 90px;
+    background-color: firebrick;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+th a span {
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+th span {
+    color: grey;
+}
+
+.config-form {
+    margin: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+    width: 600px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+input {
+    width: inherit;
+    height: 22px;
+    font-size: 15px;
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+}
+
+.padding-top {
+    padding-top: 60px;
+}
+
+.space {
+    padding-top: 20px;
+}
+
+.col_two {
+    padding-left: 20px;
+    width: 153px;
+}
+
+.col_one {
+    padding-left: 20px;
+    width: 551px;
+}
+
+.styled-button {
+    width: 334px;
+    height: 50px;
+    background-color: steelblue;
+    border: 1px solid lightgrey;
+    font-size: large;
+    font-weight: bold;
+    padding: 2px 6px;
+    color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px
+}
+
+.title {
+    float: left;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.title h1 {
+    display: inline;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    background-color: steelblue;
+    border-top: 1px solid white;
+}
